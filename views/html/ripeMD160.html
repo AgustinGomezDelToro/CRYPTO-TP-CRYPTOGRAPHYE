@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+	<title>Cryptage nodejs copievrai</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/ripeMD160.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  
+
+</head>
+<body style= "width: 100%; height:100%; text-align:center;" role="document">
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">SHA256</a></li>
+        <li><a href="/index512">Keccak-512</a></li>
+        <li><a href="/MD5.html">MD5</a></li>
+        <li><a href="/ripeMD160.html">ripeMD160</a></li>
+        <li><a href="#AES">AES</a></li>
+        <li><a href="#RSA">RSA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div style="margin-top: 15px">
+<h2>Criptography ESGI - IBC3</h2>
+</div>
+<img src="img/esgi.jpeg" width="">
+<h4 style="margin-top: 15px;">CRYPTAGE DE STRING</h4>
+<div>
+   <div style="margin-top:10px; margin-bottom:10px"> 
+    <form>
+      </br>
+      <div class="form-control">
+      <label >Phrase à encrypter : </label>
+      <input id="frase" name="frase" placeholder="écrire phrase"></div>
+      </br>
+      <label style="margin-top:10px; margin-bottom:10px">phrase encrypté : </label>
+      <b><label id="resultado"></label></b>
+      </br>
+      <hr style="margin-top:10px; margin-bottom:10px; width: 20%;">
+      <label>Phrase original</label>
+      <b><label id="resultadoOriginal"></label></b>
+      </br>
+      
+    </form>
+
+        <button id="btnEncripta" class="btn btn-primary" style="margin-top:10px; margin-bottom:10px">Encrypter</button>
+        <button id="btnDecifra" class="btn btn-primary" style="margin-top:10px; margin-bottom:10px">Décrypter</button>
+   </div>
+   <div>
+    <hr style="margin-top:10px; margin-bottom:10px; width: 80%; height: 2px; color:black;">
+   </div>
+
+   <h4>CRYPTAGE DE FICHIER</h4>
+
+
+<div>
+    <div style="margin-top:10px; margin-bottom:10px"> 
+          <form>
+            <input class="btn btn-info" type="file" id="fileToUpload">
+            <button type="button" class="btn btn-success" onclick="calculateHash()">Calculate Hash<button>
+          </form>
+          
+          
+    </div>
+</div>
+</div>
+      <div style="text-align:center; color:green; margin-left: 10px;" id="resultado2"></div>
+</body>
+</html>
