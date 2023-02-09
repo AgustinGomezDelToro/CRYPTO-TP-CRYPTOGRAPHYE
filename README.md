@@ -1,22 +1,34 @@
-# CRYPTO-TP-CRYPTOGRAPHYE
+CRYPTO-TP-CRYPTOGRAPHYE
+Bienvenue dans CRYPTO-TP-CRYPTOGRAPHYE, un projet consacré à la cryptographie.
 
+Prérequis
+Avant de commencer à utiliser ce projet, vous devez avoir installé les éléments suivants sur votre ordinateur :
 
-pour build faire un 
-
-npm install 
-
-Après 
-
-nmp start
-
-npm start exécutera notres serveur.js et ouvrira notre serveur. 
+Node.js
+npm
 
 
 
+Installation
+Pour installer le projet, suivez les étapes suivantes :
+
+Ouvrez un terminal dans le répertoire où vous avez cloné le projet.
+Exécutez la commande suivante pour installer les dépendances :
+
+npm install
 
 
-ps: j'ai eu des problemes pour epingler les pages dans le menu mais elles sont faites ! 
+Exécution
+Pour exécuter le projet, utilisez la commande suivante :
+
+npm start
+
+
+Cela exécutera le fichier server.js et démarrera le serveur.
 
 
 
-MERCI. 
+PS: j'ai eu des problèmes pour épingler les pages au menu. ça m'a pris beaucoup de temps.
+
+
+MERCI BEAUCOUP !
