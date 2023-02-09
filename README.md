@@ -4,8 +4,7 @@ Bienvenue dans CRYPTO-TP-CRYPTOGRAPHYE, un projet consacré à la cryptographie.
 Prérequis
 Avant de commencer à utiliser ce projet, vous devez avoir installé les éléments suivants sur votre ordinateur :
 
-Node.js
-npm
+Node.js et npm
 
 
 
